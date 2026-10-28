@@ -1,0 +1,16 @@
+{
+  "required": false,
+  "minVersion": "0.8.5",
+  "package": "com.fartiqs.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "TwoXPayMixin",
+    "AuctionClientMixin",
+    "AuctionHudMixin",
+    "ProfitClientMixin",
+    "ProfitChatMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
